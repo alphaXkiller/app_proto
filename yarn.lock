@@ -854,6 +854,10 @@ big-integer@^1.6.7:
   version "1.6.22"
   resolved "https://registry.yarnpkg.com/big-integer/-/big-integer-1.6.22.tgz#487c95fce886022ea48ff5f19e388932df46dd2e"
 
+bluebird@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
+
 blueimp-md5@^2.5.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/blueimp-md5/-/blueimp-md5-2.7.0.tgz#7f518e0dd70467fefe28ecba398916092f2a02a9"
@@ -2075,6 +2079,10 @@ istanbul-reports@^1.1.0:
   dependencies:
     handlebars "^4.0.3"
 
+itypeof@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/itypeof/-/itypeof-1.1.2.tgz#6fb22639dc78a414f594b3d553a5f2c2488fd022"
+
 jest-changed-files@^20.0.3:
   version "20.0.3"
   resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-20.0.3.tgz#9394d5cc65c438406149bef1bf4d52b68e03e3f8"
@@ -3190,6 +3198,16 @@ react-native-easy-grid@0.1.7:
   resolved "https://registry.yarnpkg.com/react-native-easy-grid/-/react-native-easy-grid-0.1.7.tgz#44205cc39adff32a8a20efa8451d76a4499f0a3f"
   dependencies:
     lodash "^4.11.1"
+
+react-native-facebook-login@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-facebook-login/-/react-native-facebook-login-1.5.0.tgz#539fa97e522c6303aa75658d6b56fcee744dd44e"
+  dependencies:
+    itypeof "^1.1.2"
+
+react-native-fbsdk@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-fbsdk/-/react-native-fbsdk-0.6.0.tgz#08fdc00e9ca777f724a70029a5b1c3794b49b882"
 
 react-native-keyboard-aware-scroll-view@0.2.7:
   version "0.2.7"

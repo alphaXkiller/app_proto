@@ -12,4 +12,10 @@ public class MainActivity extends ReactActivity {
     protected String getMainComponentName() {
         return "firstReactNative";
     }
+
+    @Override
+    public void onActivity(int requestCode, int resultCode, Intent data) {
+      super.onActivityResult(requestCode, resultCode, data);
+      MainApplication.getCallbackManager().onActivityResult(requestCode, resultCode, data);
+    }
 }
